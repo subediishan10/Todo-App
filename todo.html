@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <title>Todo app</title>
+    <title>Todo app</title>  
 </head>
+<link rel="stylesheet" href="todo.css">
 <body>
+    <h1 id="main-heading">Todo App</h1>
+    <div class="grid-container">
+        <input type="text" id="todo-input" placeholder="Enter todo here">
+        <input type="date" id="todo-date">
+        <button class="btn-todo" onclick="addTodo();">Add</button>
+    </div>
     
+    
+    <div class="todo-container grid-container"></div>
+    <script src="todo.js"></script>
 </body>
 </html>
